@@ -1,4 +1,4 @@
-import AcmeLogo from '@/app/ui/acme-logo';
+import ZeroShotLogo from '@/app/ui/zeroshot-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import ContactForm from '@/app/ui/contact-form';
@@ -11,9 +11,14 @@ export default function Page() {
         <h2 className="text-2xl text-gray-800 md:text-3xl mb-8">
           We're building the datasets that will power the robotic revolution.
         </h2>
-        <Link href="/contact" passHref>
+        <p className="text-gray-500 text-sm mb-4">
+          <a href="mailto:interest@zeroshotdata.com" className="hover:underline">
+            interest@zeroshotdata.com
+          </a>
+        </p>
+        {/* <Link href="/contact" passHref>
           <Button>Contact Us</Button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

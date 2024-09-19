@@ -11,6 +11,9 @@ export default async function Page() {
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
         Dashboard
       </h1>
+      <p className="bg-yellow-300 text-gray-500 text-sm mb-4">
+        Nothing to see here yet. Just a placeholder to store components taken from a template.
+      </p>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <Suspense fallback={<CardsSkeleton />}>
           <CardWrapper />
